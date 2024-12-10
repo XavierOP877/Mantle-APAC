@@ -1,6 +1,6 @@
-# BetWin - Decentralized Betting Platform on Avalanche 🎲
+# SureBet - Decentralized Betting Platform on Mantle Testnet 🎲
 
-BetWin is a modern, user-friendly decentralized betting platform built on the Avalanche blockchain. Create custom betting events, participate in bets, and earn rewards in a transparent and trustless environment.
+SureBet is a modern, user-friendly decentralized betting platform built on the Mantle Testnet blockchain. Create custom betting events, participate in bets, and earn rewards in a transparent and trustless environment.
 
 ## 🌟 Features
 
@@ -19,8 +19,8 @@ BetWin is a modern, user-friendly decentralized betting platform built on the Av
 - **Creator Dashboard**: Manage all your created bets in one place
 
 ### Platform Features
-- **Lightning Fast**: Built on Avalanche for near-instant finality
-- **Low Fees**: Minimal transaction costs on Avalanche
+- **Lightning Fast**: Built on Mantle Testnet for near-instant finality
+- **Low Fees**: Minimal transaction costs on Mantle Testnet
 - **Transparent**: All betting logic secured by smart contracts
 - **Mobile Responsive**: Seamless experience across all devices
 - **User-Friendly**: Modern UI with smooth animations and transitions
@@ -41,7 +41,7 @@ BetWin is a modern, user-friendly decentralized betting platform built on the Av
 - Automated settlement logic
 
 ### Blockchain
-- Avalanche C-Chain Testnet
+- Mantle Testnet 
 - EVM compatible
 - Smart contract powered
 
@@ -77,14 +77,14 @@ For each bet:
 
 Example:
 ```
-Total Pool: 100 AVAX
-Yes Pool: 40 AVAX (2 bettors: 15 & 25 AVAX)
-No Pool: 60 AVAX (3 bettors)
+Total Pool: 100 MNT
+Yes Pool: 40 MNT (2 bettors: 15 & 25 MNT)
+No Pool: 60 MNT (3 bettors)
 
 If "Yes" wins:
-- Creator gets: 3 AVAX (3%)
-- First bettor (15 AVAX) gets: ~36.5 AVAX
-- Second bettor (25 AVAX) gets: ~60.5 AVAX
+- Creator gets: 3 MNT (3%)
+- First bettor (15 MNT) gets: ~36.5 MNT
+- Second bettor (25 MNT) gets: ~60.5 MNT
 ```
 ## 🛣️ Roadmap
 
