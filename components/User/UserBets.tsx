@@ -204,7 +204,7 @@ const UserBets: React.FC = () => {
         <div className="flex justify-between items-start">
           <div className="space-y-2">
             <p className="text-purple-600 font-semibold text-lg">
-              Your Bet: {formatEther(bet.amount)} AVAX
+              Your Bet: {formatEther(bet.amount)} MNT
             </p>
             <span
               className={`inline-block px-3 py-1 rounded-full text-sm font-medium ${
@@ -269,7 +269,7 @@ const UserBets: React.FC = () => {
                   <div className="flex-1">
                     <h4 className="text-sm font-medium text-gray-500 mb-1">Total Pool</h4>
                     <p className="text-gray-800 font-medium">
-                      {formatEther(bet.totalPool)} AVAX
+                      {formatEther(bet.totalPool)} MNT
                     </p>
                   </div>
                 </div>
@@ -288,15 +288,15 @@ const UserBets: React.FC = () => {
                         <div className="bg-gray-50 rounded-lg p-4 space-y-2">
                           <div className="flex justify-between text-sm">
                             <span className="text-gray-600">Your Bet</span>
-                            <span className="font-medium">{formatEther(bet.amount)} AVAX</span>
+                            <span className="font-medium">{formatEther(bet.amount)} MNT</span>
                           </div>
                           <div className="flex justify-between text-sm">
                             <span className="text-gray-600">Total Pool</span>
-                            <span className="font-medium">{formatEther(bet.totalPool)} AVAX</span>
+                            <span className="font-medium">{formatEther(bet.totalPool)} MNT</span>
                           </div>
                           <div className="flex justify-between text-sm">
                             <span className="text-gray-600">Winning Side Total</span>
-                            <span className="font-medium">{formatEther(winningPool)} AVAX</span>
+                            <span className="font-medium">{formatEther(winningPool)} MNT</span>
                           </div>
                           <div className="flex justify-between text-sm">
                             <span className="text-gray-600">Your Share</span>
@@ -307,23 +307,23 @@ const UserBets: React.FC = () => {
                           <div className="flex justify-between text-sm">
                             <span className="text-gray-600">Expected Winnings (Before Fee)</span>
                             <span className="font-medium">
-                              {formatEther((bet.amount * bet.totalPool) / winningPool)} AVAX
+                              {formatEther((bet.amount * bet.totalPool) / winningPool)} MNT
                             </span>
                           </div>
                           <div className="flex justify-between text-sm">
                             <span className="text-gray-600">Creator Fee (3%)</span>
                             <span className="font-medium">
-                              {formatEther((winnings * BigInt(3)) / BigInt(97))} AVAX
+                              {formatEther((winnings * BigInt(3)) / BigInt(97))} MNT
                             </span>
                           </div>
                           <div className="border-t border-gray-200 pt-2 flex justify-between font-medium">
                             <span className="text-green-600">Final Winnings</span>
-                            <span className="text-green-600">{formatEther(winnings)} AVAX</span>
+                            <span className="text-green-600">{formatEther(winnings)} MNT</span>
                           </div>
                           <div className="text-sm text-gray-500 pt-2">
                             <span>Net Profit: </span>
                             <span className="font-medium text-green-600">
-                              {formatEther(winnings - bet.amount)} AVAX
+                              {formatEther(winnings - bet.amount)} MNT
                             </span>
                           </div>
                         </div>
